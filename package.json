@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently \"ng serve\" \"json-server\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "json-server": "json-server --watch db.json",
-    "concurrently": "concurrently \"command1 arg\" \"command2 arg\""
+    "json-server": "json-server --watch db.json"
   },
   "private": true,
   "dependencies": {
