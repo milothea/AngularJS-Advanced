@@ -1,0 +1,36 @@
+{
+  "student": [
+    { "id": 11, "name": "Mr. Nice", "statusId": 1, "taskId": 1 },
+    { "id": 12, "name": "Narco", "statusId": 2, "taskId": 2 },
+    { "id": 13, "name": "Bombasto", "statusId": 3, "taskId": 3 },
+    { "id": 14, "name": "Celeritas","statusId": 4, "taskId": 4 },
+    { "id": 15, "name": "Magneta", "statusId": 5, "taskId": 5 },
+    { "id": 16, "name": "RubberMan", "statusId": 1, "taskId": 5 },
+    { "id": 17, "name": "Dynama", "statusId": 2, "taskId": 4 },
+    { "id": 18, "name": "Dr IQ", "statusId": 3, "taskId": 3 },
+    { "id": 19, "name": "Magma", "statusId": 4, "taskId": 2 },
+    { "id": 20, "name": "Tornado", "statusId": 5, "taskId": 10 }
+  ],
+  "users": [
+    { "id": 1, "email": "testUser@gomel.iba.by", "password": "12345678", "name": "Администратор" }
+  ],
+  "tasklist": [
+    { "id": 1, "name": "task1" },
+    { "id": 2, "name": "task2" },
+    { "id": 3, "name": "task3" },
+    { "id": 4, "name": "task4" },
+    { "id": 5, "name": "task5" },
+    { "id": 6, "name": "task6" },
+    { "id": 7, "name": "task7" },
+    { "id": 8, "name": "task8" },
+    { "id": 9, "name": "task9" },
+    { "id": 10, "name": "task10" }
+  ],
+  "statuslist": [
+    { "id": 1, "name": "Open" },
+    { "id": 2, "name": "In progress" },
+    { "id": 3, "name": "on Hold" },
+    { "id": 4, "name": "Done" },
+    { "id": 5, "name": "Cancelled" }
+  ]
+}
